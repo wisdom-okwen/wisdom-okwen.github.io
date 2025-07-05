@@ -1,8 +1,12 @@
 
+import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
+
 function App() {
   return (
     <div>
-      {/* Home page cleared. Add your content here. */}
+      <Navbar />
+      <Homepage />
     </div>
   );
 }
