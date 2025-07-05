@@ -1,16 +1,26 @@
-## Hi there 👋
 
-<!--
-**wisdom-okwen/wisdom-okwen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+# Portfolio Website
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+This is a frontend-only, single-page portfolio website built with React and TypeScript.
+
+## Features & Structure
+
+- **Header/Profile:** Name, title, short bio, profile image, and social/contact links
+- **News/Updates:** Recent news or achievements
+- **Experience:** Work and teaching experience with dates and organizations
+- **Publications:** List of publications with links and summaries
+- **Projects:** Featured and additional projects with images, descriptions, and links
+- **Education:** Schools, degrees, years, honors, and coursework
+
+## Design
+
+- Clean, single-column layout
+- Section headings with emojis/icons
+- Profile and project images are circular or rounded
+- Minimal color palette, accent colors for links and icons
+- Responsive and mobile-friendly
+
+---
+
+This site showcases my educational background and work experience in software engineering, inspired by [aumken.com](https://aumken.com/).
