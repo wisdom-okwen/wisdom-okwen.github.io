@@ -53,7 +53,7 @@ const Skills: React.FC = () => (
               <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>GraphQL <SiGraphql title="GraphQL" /></td>
             </tr>
             <tr>
-              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>ASP.NET <SiDotnet title="ASP.NET" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>ASP.NET</td>
               <td></td>
               <td></td>
               <td></td>
