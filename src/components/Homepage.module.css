@@ -81,6 +81,9 @@
   top: 6rem;
   height: fit-content;
   z-index: 10;
+  background: var(--section-bg);
+  color: var(--main-text);
+  transition: background 0.3s, color 0.3s;
 }
 
 @media (max-width: 600px) {

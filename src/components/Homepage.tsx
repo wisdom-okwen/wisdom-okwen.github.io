@@ -1,4 +1,5 @@
 
+import About from './About';
 import News from './News';
 import Experience from './Experience';
 import Publications from './Publications';
@@ -19,7 +20,7 @@ const Homepage: React.FC = () => {
         />
         <div className={styles.name}>Wisdom Okwen</div>
         <div className={styles.bio}>
-          Welcome to my portfolio website! Here you can find information about my background, experience, and projects.
+            Conversational & Agentic AI 🤖 | Web Development 🌐
         </div>
         <div className={styles.socialLinks}>
           <a href="https://www.linkedin.com/in/wisdom-okwen-05b09a184/" aria-label="LinkedIn"><LinkedInIcon sx={{ color: '#0077b5' }} fontSize="large" /></a>
@@ -31,6 +32,7 @@ const Homepage: React.FC = () => {
         </div>
       </div>
       <div className={styles.rightColumn}>
+        <About />
         <News />
         <Education />
         <Skills />

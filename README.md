@@ -1,26 +1,9 @@
 
 
-# Portfolio Website
+## About
 
-This is a frontend-only, single-page portfolio website built with React and TypeScript.
+I am a rising senior at the University of North Carolina at Chapel Hill, deeply passionate about leveraging technology to address complex, real-world challenges. My academic and professional journey has been defined by a relentless curiosity for web development—spanning frontend, backend, and API design—as well as a profound engagement with machine learning and artificial intelligence. I am particularly fascinated by the advancement of models that underpin conversational AI systems, including chatbots and intelligent digital interfaces, and am committed to enhancing their contextual understanding and resourcefulness.
 
-## Features & Structure
+Most recently, I completed a transformative internship at Microsoft, where I architected and implemented a Model Context Protocol Server. This system empowers AI agents within Microsoft Copilot Studio by provisioning them with dynamic, contextually relevant resources, thereby augmenting their problem-solving capabilities and adaptability. My work contributed to making AI agents more versatile and effective in real-world applications.
 
-- **Header/Profile:** Name, title, short bio, profile image, and social/contact links
-- **News/Updates:** Recent news or achievements
-- **Experience:** Work and teaching experience with dates and organizations
-- **Publications:** List of publications with links and summaries
-- **Projects:** Featured and additional projects with images, descriptions, and links
-- **Education:** Schools, degrees, years, honors, and coursework
-
-## Design
-
-- Clean, single-column layout
-- Section headings with emojis/icons
-- Profile and project images are circular or rounded
-- Minimal color palette, accent colors for links and icons
-- Responsive and mobile-friendly
-
----
-
-This site showcases my educational background and work experience in software engineering, inspired by [aumken.com](https://aumken.com/).
+Beyond my technical pursuits, I find balance and inspiration through recreational activities such as playing ping pong, engaging with thought-provoking content on YouTube, maintaining physical fitness, and immersing myself in literature. These interests continually enrich my perspective and fuel my drive for lifelong learning and innovation.

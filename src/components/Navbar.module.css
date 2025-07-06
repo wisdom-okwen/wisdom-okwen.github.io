@@ -1,17 +1,39 @@
+.themeToggle {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 1.5rem;
+  top: 0.5rem;
+  z-index: 130;
+}
+.themeToggleBtn {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+.themeToggleBtn:focus, .themeToggleBtn:hover {
+  background: #e0e0e0;
+}
 
 
 .navbar {
   width: 100vw;
   left: 0;
   right: 0;
-  background: var(--navbar-bg, #fff);
-  border-bottom: 1px solid var(--navbar-border, #eee);
+  background: var(--navbar-bg);
+  color: var(--main-text);
+  border-bottom: 1px solid var(--navbar-border);
   position: sticky;
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  transition: background 0.3s, color 0.3s;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -89,6 +111,13 @@
 }
 
 @media (max-width: 600px) {
+  .themeToggle {
+    left: 0.5rem;
+    right: auto;
+    top: 0.5rem;
+    position: absolute;
+    z-index: 130;
+  }
   .hamburger {
     display: block;
     position: absolute;
