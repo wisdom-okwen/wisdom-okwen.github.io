@@ -7,9 +7,7 @@ const Publications: React.FC = () => {
       <hr style={{ width: '60%', border: '0.1px solid #cccdceff', margin: '0.5rem 0 1rem 0' }} />
       {/* TODO: Add publication items */}
       <ul>
-        <li>"Awesome Paper Title" - Conference Name, 2025</li>
         <li><em>Under construction</em></li>
-
       </ul>
     </section>
   );

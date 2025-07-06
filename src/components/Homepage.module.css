@@ -1,4 +1,13 @@
 @media (max-width: 600px) {
+  h2 {
+    text-align: center !important;
+    width: 100%;
+  }
+  hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
   .homepageContainer {
     display: flex;
     flex-direction: column !important;
