@@ -20,27 +20,46 @@ const Skills: React.FC = () => (
       </li>
       <li style={{ marginTop: 8 }}>
         <strong>Technologies:</strong>
-        <span style={{ marginLeft: 8 }}><SiPandas title="Pandas" /></span>
-        <span style={{ marginLeft: 8 }}><SiScikitlearn title="ScikitLearn" /></span>
-        <span style={{ marginLeft: 8 }}><SiPytorch title="PyTorch" /></span>
-        <span style={{ marginLeft: 8 }}><SiMlflow title="MLFlow" /></span>
-        <span style={{ marginLeft: 8 }}><SiLangchain title="LangChain" /></span>
-        <span style={{ marginLeft: 8 }}><SiGithub title="GitHub" /></span>
-        <span style={{ marginLeft: 8 }}><FaGitAlt title="Git" /></span>
-        <span style={{ marginLeft: 8 }}><SiLinux title="Linux" /></span>
-        <span style={{ marginLeft: 8 }}><SiGnubash title="Bash" /></span>
-        <span style={{ marginLeft: 8 }}><SiDocker title="Docker" /></span>
-        <span style={{ marginLeft: 8 }}><SiReact title="React" /></span>
-        <span style={{ marginLeft: 8 }}><SiNodedotjs title="Node.js" /></span>
-        <span style={{ marginLeft: 8 }}><SiExpress title="Express" /></span>
-        <span style={{ marginLeft: 8 }}><SiMongodb title="MongoDB" /></span>
-        <span style={{ marginLeft: 8 }}><SiFastapi title="FastAPI" /></span>
-        <span style={{ marginLeft: 8 }}><SiFlask title="Flask" /></span>
-        <span style={{ marginLeft: 8 }}><SiAngular title="Angular" /></span>
-        <span style={{ marginLeft: 8 }}><SiPostgresql title="PostgreSQL" /></span>
-        <span style={{ marginLeft: 8 }}><SiSqlalchemy title="SQLAlchemy" /></span>
-        <span style={{ marginLeft: 8 }}><SiGraphql title="GraphQL" /></span>
-        <span style={{ marginLeft: 8 }}><SiDotnet title="ASP.NET" /></span>
+        <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: 8 }}>
+          <tbody>
+            <tr>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Pandas <SiPandas title="Pandas" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Scikit-learn <SiScikitlearn title="ScikitLearn" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>PyTorch <SiPytorch title="PyTorch" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>MLflow <SiMlflow title="MLFlow" /></td>
+            </tr>
+            <tr>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>LangChain <SiLangchain title="LangChain" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>GitHub <SiGithub title="GitHub" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Git <FaGitAlt title="Git" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Linux <SiLinux title="Linux" /></td>
+            </tr>
+            <tr>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Bash <SiGnubash title="Bash" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Docker <SiDocker title="Docker" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>React <SiReact title="React" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Node.js <SiNodedotjs title="Node.js" /></td>
+            </tr>
+            <tr>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Express <SiExpress title="Express" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>MongoDB <SiMongodb title="MongoDB" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>FastAPI <SiFastapi title="FastAPI" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Flask <SiFlask title="Flask" /></td>
+            </tr>
+            <tr>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>Angular <SiAngular title="Angular" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>PostgreSQL <SiPostgresql title="PostgreSQL" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>SQLAlchemy <SiSqlalchemy title="SQLAlchemy" /></td>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>GraphQL <SiGraphql title="GraphQL" /></td>
+            </tr>
+            <tr>
+              <td style={{ padding: '4px 8px', verticalAlign: 'middle' }}>ASP.NET <SiDotnet title="ASP.NET" /></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
       </li>
       <li style={{ marginTop: 8 }}>
         <strong>Other:</strong> Prompt Engineering, Search Engine Optimization
