@@ -4,7 +4,7 @@ const About: React.FC = () => (
   <section id="about">
     <h2>👤 About</h2>
     <hr style={{ width: '60%', border: '0.1px solid #cccdceff', margin: '0.5rem 0 1rem 0' }} />
-    <div style={{ maxWidth: 700, margin: '0 auto', fontSize: '1.08rem', lineHeight: 1.7 }}>
+    <div style={{ fontSize: '1.08rem', lineHeight: 1.7 }}>
       <p>
         I am a rising senior at the University of North Carolina at Chapel Hill.
         My interests lie in web development, as well as machine learning and artificial intelligence. 
