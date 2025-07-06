@@ -49,10 +49,11 @@ const Navbar: React.FC = () => {
       <ul className={`${styles.navbarList} ${menuOpen ? styles.open : ''}`} onClick={handleClose}>
         <li className={styles.navbarItem}><a href="#about">Home</a></li>
         <li className={styles.navbarItem}><a href="#news">News</a></li>
+        <li className={styles.navbarItem}><a href="#education">Education</a></li>
+        <li className={styles.navbarItem}><a href="#skills">Skills & Interests</a></li>
         <li className={styles.navbarItem}><a href="#experience">Experience</a></li>
         <li className={styles.navbarItem}><a href="#publications">Publications</a></li>
         <li className={styles.navbarItem}><a href="#projects">Projects</a></li>
-        <li className={styles.navbarItem}><a href="#education">Education</a></li>
         <li className={styles.navbarItem}><Link to="/blog" target='_blank'>Blog</Link></li>
       </ul>
     </nav>

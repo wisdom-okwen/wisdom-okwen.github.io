@@ -1,0 +1,28 @@
+<!--
+  404.html for GitHub Pages SPA fallback
+  This file ensures that all unknown routes are redirected to index.html,
+  allowing React Router to handle client-side routing (e.g., /blog).
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/wisdom-okwen.github.io/" />
+    <script type="text/javascript">
+      // If JS is enabled, redirect to the root with the current path as hash
+      var l = window.location;
+      var path = l.pathname.replace(/^\//, '');
+      var hash = l.hash || '';
+      var search = l.search || '';
+      // If not already at root, redirect
+      if (path && path !== 'index.html' && path !== '404.html') {
+        window.location.replace('/wisdom-okwen.github.io/#/' + path + search + hash);
+      } else {
+        window.location.replace('/wisdom-okwen.github.io/');
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected, <a href="/wisdom-okwen.github.io/">click here</a>.</p>
+  </body>
+</html>
