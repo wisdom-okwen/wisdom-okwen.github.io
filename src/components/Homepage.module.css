@@ -1,3 +1,20 @@
+@media (prefers-color-scheme: dark) {
+  .leftColumn,
+  .leftColumn .name,
+  .leftColumn .bio,
+  .leftColumn .title {
+    color: #fff !important;
+  }
+  .bio {
+    color: #e0e0e0 !important;
+  }
+  .title {
+    color: #b0b0b0 !important;
+  }
+  .socialLinks a[aria-label="GitHub"] svg {
+    color: #fff !important;
+  }
+}
 @media (max-width: 600px) {
   h2 {
     text-align: center !important;
