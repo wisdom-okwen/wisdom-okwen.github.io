@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FaSun, FaMoon } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 const getPreferredTheme = () => {
@@ -52,6 +53,7 @@ const Navbar: React.FC = () => {
         <li className={styles.navbarItem}><a href="#publications">Publications</a></li>
         <li className={styles.navbarItem}><a href="#projects">Projects</a></li>
         <li className={styles.navbarItem}><a href="#education">Education</a></li>
+        <li className={styles.navbarItem}><Link to="/blog" target='_blank'>Blog</Link></li>
       </ul>
     </nav>
   );
