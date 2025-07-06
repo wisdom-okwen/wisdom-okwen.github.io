@@ -32,8 +32,6 @@
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   transition: background 0.3s, color 0.3s;
 }
 
