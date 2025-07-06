@@ -13,7 +13,7 @@ const About: React.FC = () => (
       </p>
       <p>
         I recently completed an internship at Microsoft, where I architected and implemented a Model Context Protocol Server
-         to empower AI agents by provisioning them with dynamic, contextually relevant resources, thereby augmenting their problem-solving capabilities.
+        to empower AI agents by provisioning them with dynamic, contextually relevant resources, thereby augmenting their problem-solving capabilities.
       </p>
       <p>
         I love to play ping pong, watch YouTube, workout, or read in my free times.
