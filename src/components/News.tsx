@@ -13,8 +13,8 @@ const News: React.FC = () => {
         <li>08/23: Started working as RCC with UNC ResNet 🤖</li>
         <li>07/23: TAing for Comp110 in the Fall 👨‍🏫</li>
         <li>08/23: Completed internship @ ServiceNow 🚀</li>
-        <li>09/22: Completed internship @ Renaissance Computing Institute 🕵️‍♂️</li>
-        <li>09/22: Started college at UNC Chapel Hill 🎓</li>
+        <li>12/22: Completed internship @ Renaissance Computing Institute 🕵️‍♂️</li>
+        <li>08/22: Started college at UNC Chapel Hill 🎓</li>
       </ul>
     </section>
   );
