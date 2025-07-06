@@ -24,7 +24,8 @@
   width: 100vw;
   left: 0;
   right: 0;
-  background: var(--navbar-bg);
+  --navbar-bg: #fff;
+  background: var(--navbar-bg, #fff);
   color: var(--main-text);
   border-bottom: 1px solid var(--navbar-border);
   position: sticky;
