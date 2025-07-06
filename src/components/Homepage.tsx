@@ -13,7 +13,7 @@ const Homepage: React.FC = () => {
     <section id="home" className={styles.homepageContainer}>
       <div className={styles.leftColumn}>
         <img
-          src="../assets/profile.jpg"
+          src="/profile.png"
           alt="Profile"
           className={styles.profileImage}
         />

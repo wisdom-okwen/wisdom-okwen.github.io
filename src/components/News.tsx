@@ -3,7 +3,7 @@ import React from 'react';
 const News: React.FC = () => {
   return (
     <section id="news">
-      <h2>🔥 News</h2>
+      <h2>📢 News</h2>
       <hr style={{ width: '60%', border: '0.1px solid #cccdceff', margin: '0.5rem 0 1rem 0' }} />
       {/* TODO: Add news items */}
       <ul>

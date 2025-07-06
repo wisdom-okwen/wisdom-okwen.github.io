@@ -1,16 +1,35 @@
 
+
 .navbar {
   width: 100vw;
   left: 0;
   right: 0;
-  background: #fff;
-  border-bottom: 1px solid #eee;
+  background: var(--navbar-bg, #fff);
+  border-bottom: 1px solid var(--navbar-border, #eee);
   position: sticky;
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    --navbar-bg: #23272a;
+    --navbar-border: #333;
+    background: #0a0a0a !important;
+    border-bottom: 1px solid #333 !important;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .navbarItem a {
+    color: #fff;
+  }
+  .navbarItem a:hover, .navbarItem a:focus {
+    background: #2c2f34;
+    color: #fff;
+  }
 }
 
 .navbarList {
@@ -28,7 +47,7 @@
 .navbarItem a {
   text-decoration: none;
   color: #7a8288;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1.1rem;
   padding: 0.5rem 1rem;
   border-radius: 4px;
