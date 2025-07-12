@@ -1,3 +1,10 @@
+@media (max-width: 600px) {
+  section, .homepageContainer, .leftColumn, .rightColumn, .profileImage, .bio, .name, .title, .socialLinks, ul, li, hr, h2, h1, h3, h4, h5, h6, p, div {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    box-sizing: border-box;
+  }
+}
 :root {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   line-height: 1.5;
