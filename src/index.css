@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
-  section, .homepageContainer, .leftColumn, .rightColumn, .profileImage, .bio, .name, .title, .socialLinks, ul, li, hr, h2, h1, h3, h4, h5, h6, p, div {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+  .leftColumn, .rightColumn {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
     box-sizing: border-box;
   }
 }
