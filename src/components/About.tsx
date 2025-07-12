@@ -12,10 +12,6 @@ const About: React.FC = () => (
         including chatbots and intelligent digital interfaces, and am committed to enhancing their contextual understanding and resourcefulness.
       </p>
       <p>
-        I recently completed an internship at Microsoft, where I architected and implemented a Model Context Protocol Server
-        to empower AI agents by provisioning them with dynamic, contextually relevant resources, thereby augmenting their problem-solving capabilities.
-      </p>
-      <p>
         I love to play ping pong, watch YouTube, workout, or read in my free times.
       </p>
     </div>
