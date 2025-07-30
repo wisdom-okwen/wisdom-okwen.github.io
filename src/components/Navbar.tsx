@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
         <li className={styles.navbarItem}><a href="#experience">Experience</a></li>
         <li className={styles.navbarItem}><a href="#publications">Publications</a></li>
         <li className={styles.navbarItem}><a href="#projects">Projects</a></li>
-        <li className={styles.navbarItem}><Link to="/blog" target='_blank'>Blog</Link></li>
+        <li className={styles.navbarItem}><Link to="/blog">Blog</Link></li>
       </ul>
     </nav>
   );
