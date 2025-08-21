@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
