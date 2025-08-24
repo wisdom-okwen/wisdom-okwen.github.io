@@ -1,29 +1,49 @@
 
 import React, { useState } from 'react';
 import { 
-  SiPython, SiTypescript, SiJavascript, SiPandas, SiScikitlearn, SiPytorch, SiMlflow, SiDocker, SiReact, SiNodedotjs, SiExpress, SiMongodb, SiFastapi, SiFlask, SiAngular, SiPostgresql, SiSqlalchemy, SiGraphql, SiGithub, SiLinux, SiLangchain, SiGnubash
+  SiPython, 
+  SiTypescript, 
+  SiJavascript, 
+  SiPandas, 
+  SiScikitlearn, 
+  SiPytorch, 
+  SiMlflow, 
+  SiDocker, 
+  SiReact, 
+  SiRedux,
+  SiNodedotjs, 
+  SiExpress, 
+  SiMongodb, 
+  SiFastapi, 
+  SiFlask, 
+  SiAngular, 
+  SiPostgresql, 
+  SiSqlalchemy, 
+  SiGraphql, 
+  SiGithub, 
+  SiLinux, 
+  SiLangchain, 
+  SiGnubash, 
+  SiSqlite, 
+  SiCplusplus,
+  
 } from 'react-icons/si';
-import { FaGitAlt } from 'react-icons/fa';
+import { FaGitAlt, FaJava } from 'react-icons/fa';
+
 
 
 const webDevSkills = [
   { label: 'TypeScript', icon: <SiTypescript title="TypeScript" /> },
   { label: 'JavaScript', icon: <SiJavascript title="JavaScript" /> },
   { label: 'React', icon: <SiReact title="React" /> },
+  { label: 'Redux', icon: <SiRedux title="Redux" /> },
   { label: 'Node.js', icon: <SiNodedotjs title="Node.js" /> },
   { label: 'Express', icon: <SiExpress title="Express" /> },
-  { label: 'MongoDB', icon: <SiMongodb title="MongoDB" /> },
   { label: 'FastAPI', icon: <SiFastapi title="FastAPI" /> },
   { label: 'Flask', icon: <SiFlask title="Flask" /> },
   { label: 'Angular', icon: <SiAngular title="Angular" /> },
-  { label: 'PostgreSQL', icon: <SiPostgresql title="PostgreSQL" /> },
   { label: 'SQLAlchemy', icon: <SiSqlalchemy title="SQLAlchemy" /> },
-  { label: 'GraphQL', icon: <SiGraphql title="GraphQL" /> },
-  { label: 'Docker', icon: <SiDocker title="Docker" /> },
-  { label: 'GitHub', icon: <SiGithub title="GitHub" /> },
-  { label: 'Git', icon: <FaGitAlt title="Git" /> },
-  { label: 'Linux', icon: <SiLinux title="Linux" /> },
-  { label: 'Bash', icon: <SiGnubash title="Bash" /> },
+  { label: 'GraphQL', icon: <SiGraphql title="GraphQL" /> }
 ];
 
 const aiSkills = [
@@ -35,23 +55,40 @@ const aiSkills = [
   { label: 'LangChain', icon: <SiLangchain title="LangChain" /> },
 ];
 
+const systemsSkills = [
+  { label: 'C++', icon: <SiCplusplus title="C++" /> },
+  { label: 'C#', icon: <SiCplusplus title="C#" /> },
+  { label: 'Java', icon: <FaJava title="Java" /> },
+  { label: 'PostgreSQL', icon: <SiPostgresql title="PostgreSQL" /> },
+  { label: 'MongoDB', icon: <SiMongodb title="MongoDB" /> },
+  { label: 'SQLite', icon: <SiSqlite title="SQLite" /> },
+  { label: 'Docker', icon: <SiDocker title="Docker" /> },
+  { label: 'Linux', icon: <SiLinux title="Linux" /> },
+  { label: 'Bash', icon: <SiGnubash title="Bash" /> },
+  { label: 'GitHub', icon: <SiGithub title="GitHub" /> },
+  { label: 'Git', icon: <FaGitAlt title="Git" /> },
+  { label: 'Linux', icon: <SiLinux title="Linux" /> },
+  { label: 'Bash', icon: <SiGnubash title="Bash" /> },
+];
+
 const otherSkills = [
-  { label: 'C#' },
-  { label: 'Java' },
+  
   { label: 'Prompt Engineering' },
   { label: 'Search Engine Optimization' },
 ];
 
 const Skills: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'web' | 'ai' | 'other'>('web');
+  const [activeTab, setActiveTab] = useState<'web' | 'ai' | 'systems' | 'other'>('web');
   const tabList = [
     { key: 'web', label: 'Web Dev' },
     { key: 'ai', label: 'AI' },
+    { key: 'systems', label: 'Systems' },
     { key: 'other', label: 'Other' },
   ];
   const skillsToShow =
     activeTab === 'web' ? webDevSkills :
     activeTab === 'ai' ? aiSkills :
+    activeTab === 'systems' ? systemsSkills :
     otherSkills;
   return (
     <section id="skills">
@@ -61,7 +98,7 @@ const Skills: React.FC = () => {
         {tabList.map(tab => (
           <button
             key={tab.key}
-            onClick={() => setActiveTab(tab.key as 'web' | 'ai' | 'other')}
+            onClick={() => setActiveTab(tab.key as 'web' | 'ai' | 'systems' | 'other')}
             style={{
               position: 'relative',
               padding: '0.5rem 1.5rem',
